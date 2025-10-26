@@ -23,9 +23,10 @@ public class Actividad {
 
     // Getters, setters y métodos auxiliares
     public boolean agregarInscripcion(Socio socio) {
-        if (socio.getEdad() <= edadMinima || inscriptos.size() > cupo) {
+        if (socio.getEdad() <= edadMinima || inscriptos.size() >= cupo) {
             return false;
         }
+
         return inscriptos.add(socio);
     }
 

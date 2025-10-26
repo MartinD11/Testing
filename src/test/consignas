@@ -1,11 +1,13 @@
 -ABM de SocioRepository/RecursoRepository y ActividadRepository DONE
--El nombre de un socio no puede contener más de 50 caracteres. Si eso sucede, se obtiene la excepción NombreMuyLargoException.
--El DNI contiene 6 o 7 números y sin puntos.
--El el método toString de Actividad retorna un string <nombre>-<lugar>
--El recurso “Oficina” no se puede crear. Al intentarlo, el objeto será nulo.
--Se puede reservar un recurso sólo si no está ocupado en ese momento
--Eliminar una reserva que realizó otro usuario no tiene efecto.
--Escenario específico: No se pueden inscribir menores de 16 años a Boxeo
+-El nombre de un socio no puede contener más de 50 caracteres. Si eso sucede,
+se obtiene la excepción NombreMuyLargoException. DONE
+-El DNI contiene 6 o 7 números y sin puntos. DONE
+-El el método toString de Actividad retorna un string <nombre>-<lugar>. DONE
+-El recurso “Oficina” no se puede crear. Al intentarlo, el objeto será nulo. DONE
+-Se puede reservar un recurso sólo si no está ocupado en ese momento. DONE
+-Eliminar una reserva que realizó otro usuario no tiene efecto. DONE
+-Escenario específico: No se pueden inscribir menores de 16 años a Boxeo. DONE
+
 -No se pueden inscribir socios a una actividad si se ha superado el cupo.
 
 testng
